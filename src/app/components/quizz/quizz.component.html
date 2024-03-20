@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="content">
+    <h1>BuzzFeed</h1>
+    <h3>{{ quizz.title }}</h3>
+    <div class="quizz" *ngIf="!finished; else finishedBlock">
+      <p>{{ quizz.questions[question].question }}</p>
+      <div class="options">
+        <button
+          *ngFor="
+            let option of quizz.questions[question].options;
+            let id = index
+          "
+          (click)="onOptionSelected(id)"
+        >
+          {{ option.option }}
+        </button>
+      </div>
+    </div>
+    <ng-template #finishedBlock>
+        <div class="result">
+            <p>{{ result }}</p>
+            <button (click)="onTryAgain()">Tentar novamente</button>
+        </div>
+    </ng-template>
+  </div>
+</div>
