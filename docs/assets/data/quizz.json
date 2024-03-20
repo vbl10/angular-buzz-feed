@@ -1,0 +1,89 @@
+{
+  "title": "Título",
+  "questions": [
+    {
+      "question": "Questão 1",
+      "options": [
+        {
+          "option": "Opção 1",
+          "value": 0
+        },
+        {
+          "option": "Opção 2",
+          "value": 0
+        },
+        {
+          "option": "Opção 3",
+          "value": 0
+        },
+        {
+          "option": "Opção 4",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "question": "Questão 2",
+      "options": [
+        {
+          "option": "Opção 1",
+          "value": 0
+        },
+        {
+          "option": "Opção 2",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "question": "Questão 3",
+      "options": [
+        {
+          "option": "Opção 1",
+          "value": 0
+        },
+        {
+          "option": "Opção 2",
+          "value": 1
+        },
+        {
+          "option": "Opção 3",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "question": "Questão 4",
+      "options": [
+        {
+          "option": "Opção 1",
+          "value": 0
+        },
+        {
+          "option": "Opção 2",
+          "value": 0
+        },
+        {
+          "option": "Opção 3",
+          "value": 0
+        },
+        {
+          "option": "Opção 4",
+          "value": 1
+        },
+        {
+          "option": "Opção 5",
+          "value": 0
+        },
+        {
+          "option": "Opção 6",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "results": [
+    "Resultado 1",
+    "Resultado 2"
+  ]
+}
